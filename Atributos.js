@@ -1,4 +1,4 @@
-function validarAtributos(atributos, ptsLimite = 27) {
+function Atributos(atributos, ptsLimite = 27) {
     const tabelaCusto = {
         8:0,
         9:1,
@@ -40,5 +40,5 @@ const atributosPersonagem = {
     CAR: 8
 };
 
-const resultado = validarAtribuicao(atributosPersonagem);
+const resultado = Atributos(atributosPersonagem);
 console.log(resultado);
