@@ -1,0 +1,19 @@
+Esta documentação e sobre a função de validarAtribuicao
+
+A função possuí dois parametros Atributos e Limite de pontos:
+
+Atributos: {
+    FOR: 15, DES: 14, CON: 13, INT: 12, SAB: 10, CAR: 8 Esses atributos eles são os dos personagens decidos pelo o jogador
+}
+
+limite pts: 27 - seria o limite de pontos definidos na regra do jogo
+
+da se inicio a tabela de custo.. os pontos gastos e um array para armazenar o resultado da validação
+
+inicio de loop até passar por todos os atributos.. analisando o valor do atributo
+
+nesse loop eu uso os pontos gastos comparando a tabela de custo e com ajuda de if's para analisar se os dados estão a acompanhar a regra do jogo
+
+então se inicia vários if como verificações de tipo de se for menor que 8 ou maior que 27.. valor negativo ou se os pontos gatos forem maiores que o limite de pontos
+
+depois.. fiz um pequeno teste estatico para ver se funciona..
